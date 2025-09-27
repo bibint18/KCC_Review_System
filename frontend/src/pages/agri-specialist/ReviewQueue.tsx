@@ -63,7 +63,7 @@ export const ReviewQueue = () => {
     // const [isReviewDialogOpen, setIsReviewDialogOpen] = useState(false);
     // const [isLoadingHistory, setIsLoadingHistory] = useState(false);
     const { showSuccess, showError } = useToast();
-
+console.log("sources===",sources)
     const [versionHistory, setVersionHistory] = useState<VersionHistory[]>([]);
     const [reviewerInsights, setReviewerInsights] = useState<ReviewerInsights>({ approvals: 0, revisions: 0 });
     // const [keyImprovements, setKeyImprovements] = useState<KeyImprovement[]>([]);
